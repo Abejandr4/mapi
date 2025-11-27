@@ -1,3 +1,3 @@
-# mapi
+# MAPI
 
-codigo para geografia para ciegos
+Código de aplicación para el aprendizaje de geografia para ciegos
