@@ -1,0 +1,35 @@
+[
+    {
+        "id": "mexico",
+        "nombre": "México",
+        "sinonimos": ["la república mexicana", "méjico", "estados unidos mexicanos"],
+        "descripcionGeneral": "Es un país vibrante de América del Norte, famoso por sus playas, montañas y selvas.",
+        "cultura": "Mezcla tradiciones indígenas y españolas. Su gastronomía es patrimonio de la humanidad.",
+        "datosCuriosos": [
+            "La capital se hunde 10 cm al año.",
+            "Inventaron el chocolate."
+        ]
+    },
+    {
+        "id": "japon",
+        "nombre": "Japón",
+        "sinonimos": ["nipón", "país del sol naciente"],
+        "descripcionGeneral": "País insular en Asia, mezcla de tecnología punta y templos antiguos.",
+        "cultura": "Conocido por el anime, la ceremonia del té y el respeto.",
+        "datosCuriosos": [
+            "Hay más mascotas que niños.",
+            "Tienen islas llenas de gatos."
+        ]
+    },
+    {
+        "id": "francia",
+        "nombre": "Francia",
+        "sinonimos": ["república francesa", "galo"],
+        "descripcionGeneral": "País de Europa Occidental, abarca ciudades medievales, villas alpinas y playas mediterráneas.",
+        "cultura": "Famosa por sus vinos, su cocina refinada y museos de arte como el Louvre.",
+        "datosCuriosos": [
+            "Es el país más visitado del mundo.",
+            "Inventaron el sistema métrico."
+        ]
+    }
+]
