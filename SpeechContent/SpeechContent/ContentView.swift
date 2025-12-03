@@ -104,3 +104,10 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+//
+//  ContentView.swift
+//  SPEECH LOCATION
+//
+//  Created by iOS Lab on 26/11/25.
+//
