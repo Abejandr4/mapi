@@ -1,55 +1,58 @@
 import Foundation
+import CoreLocation
 
-// 1. Definimos la estructura que coincide con el JSON
-// Agregamos 'Codable' para que Swift sepa traducirlo automático
-struct PaisInfo: Codable {
+struct PaisInfo: Codable, Identifiable {
     let id: String
     let nombre: String
-    let sinonimos: [String] // ¡Ya preparamos el terreno para la Opción A!
+    let sinonimos: [String]
+    
+    // Datos Geográficos
+    let latitud: Double
+    let longitud: Double
+    let bandera: String
+    
+    // Información
     let descripcionGeneral: String
     let cultura: String
     let datosCuriosos: [String]
+    
+    // [NUEVO] Agrega estas dos líneas para arreglar el error:
+    let continent: String
+    let population: Int
+    
+    // Helper de coordenadas
+    var coordinate: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: latitud, longitude: longitud)
+    }
 }
 
 class BibliotecaPaises {
-    
-    // Ya no escribimos los datos aquí. Ahora tenemos una lista vacía que se llenará sola.
+    // ... (El resto de la clase se queda igual) ...
     static var todosLosPaises: [PaisInfo] = []
     
-    // Función para cargar el archivo al iniciar la app
     static func cargarDatos() {
-        // Buscamos el archivo en el paquete de la app
         guard let url = Bundle.main.url(forResource: "paises", withExtension: "json") else {
-            print("❌ Error: No encontré el archivo paises.json")
+            print("❌ Error: No encontré paises.json")
             return
         }
-        
         do {
             let data = try Data(contentsOf: url)
             let decoder = JSONDecoder()
             todosLosPaises = try decoder.decode([PaisInfo].self, from: data)
-            print("✅ Éxito: Se cargaron \(todosLosPaises.count) países desde el JSON.")
+            print("✅ Éxito: Se cargaron \(todosLosPaises.count) países.")
         } catch {
             print("❌ Error leyendo el JSON: \(error)")
         }
     }
     
-    // Función de búsqueda inteligente (Ya incluye lógica de la Opción A)
     static func buscar(texto: String) -> PaisInfo? {
         let busqueda = texto.lowercased()
-        
-        // Recorremos la lista cargada
         for pais in todosLosPaises {
-            // Checamos si el nombre coincide (ej: "méxico")
             if busqueda.contains(pais.id) || busqueda.contains(pais.nombre.lowercased()) {
                 return pais
             }
-            
-            // Checamos los sinónimos (ej: "república mexicana")
             for sinonimo in pais.sinonimos {
-                if busqueda.contains(sinonimo) {
-                    return pais
-                }
+                if busqueda.contains(sinonimo) { return pais }
             }
         }
         return nil
