@@ -29,10 +29,14 @@ class SpeechManager: NSObject, AVSpeechSynthesizerDelegate {
         
         // 3. Crear la voz
         let utterance = AVSpeechUtterance(string: text)
-        utterance.voice = AVSpeechSynthesisVoice(language: "es-MX")
+        utterance.voice = AVSpeechSynthesisVoice(identifier: "com.apple.ttsbundle.Monica-compact")
         utterance.rate = 0.5
         utterance.volume = 1.0 // Volumen máximo
-        
+        for voice in AVSpeechSynthesisVoice.speechVoices() {
+            print("\(voice.identifier) — \(voice.name) — \(voice.language)")
+        }
+
+
         synthesizer.speak(utterance)
     }
     
