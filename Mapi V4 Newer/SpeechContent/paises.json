@@ -160,6 +160,8 @@
     "cultura": "Mundialmente reconocida por su música (Salsa, Son, Bolero), el tabaco premium y el béisbol.",
     "datosCuriosos": ["Tiene una de las tasas de alfabetización más altas del mundo.", "El pájaro más pequeño del mundo, el zunzuncito, vive aquí."],
     "continent": "América",
+    "geopoliticalZone" : ["El Caribe", "América Latina"],
+    "borderingCountries" : ["Ninguno"],
     "population": 11326616
     },
     {
@@ -173,6 +175,8 @@
     "cultura": "Cuna del Merengue y la Bachata. El béisbol es el deporte nacional y una pasión absoluta.",
     "datosCuriosos": ["Santo Domingo es la ciudad europea más antigua de las Américas.", "Es el único país con una Biblia abierta en su escudo."],
     "continent": "América",
+    "geopoliticalZone" : ["El Caribe", "América Latina"],
+    "borderingCountries" : ["Haití"],
     "population": 10847910
     },
     {
@@ -186,6 +190,8 @@
     "cultura": "Famosa por su arte vibrante, el idioma Kreyòl y su historia de independencia.",
     "datosCuriosos": ["Fue la primera república negra independiente del mundo.", "Posee la fortaleza más grande de América: la Citadelle Laferrière."],
     "continent": "América",
+    "geopoliticalZone" : ["El Caribe", "América Latina"],
+    "borderingCountries" : ["República Dominicana"],
     "population": 11402528
     },
     {
@@ -199,6 +205,8 @@
     "cultura": "Lugar de nacimiento del Reggae y Bob Marley. Tierra de los velocistas más rápidos del mundo.",
     "datosCuriosos": ["Es el país con más iglesias por kilómetro cuadrado.", "La bandera jamaiquina es la única en el mundo que no tiene rojo, blanco o azul."],
     "continent": "América",
+    "geopoliticalZone" : ["El Caribe"],
+    "borderingCountries" : ["Ninguno"],
     "population": 2961167
     },
     {
@@ -212,6 +220,8 @@
     "cultura": "Potencia mundial de la música urbana (Reggaetón, Salsa) y gastronomía criolla.",
     "datosCuriosos": ["Tiene el único bosque tropical lluvioso en el sistema de parques de EE.UU. (El Yunque).", "Inventaron la piña colada."],
     "continent": "América",
+    "geopoliticalZone" : ["El Caribe", "América Latina"],
+    "borderingCountries" : ["Ninguno"]
     "population": 3193694
     },
     {
@@ -225,6 +235,8 @@
     "cultura": "Famosa por el festival Junkanoo y los curiosos cerdos nadadores de Exuma.",
     "datosCuriosos": ["Tiene el agujero azul más profundo del mundo.", "Alguna vez fue el refugio favorito de piratas famosos como Barbanegra."],
     "continent": "América",
+    "geopoliticalZone" : ["El Caribe"],
+"borderingCountries" : ["Ninguno"],
     "population": 393244
     },
     {
@@ -238,6 +250,8 @@
     "cultura": "Tierra natal de Rihanna y considerada la cuna del ron moderno.",
     "datosCuriosos": ["El pomelo (toronja) fue descubierto aquí.", "Es una isla de coral, lo que filtra su agua haciéndola muy pura."],
     "continent": "América",
+    "geopoliticalZone" : ["El Caribe"],
+"borderingCountries" : ["Ninguno"],
     "population": 287375
     },
     {
@@ -251,6 +265,8 @@
     "cultura": "Inventaron el tambor metálico (Steelpan), el baile del limbo y la música Calipso.",
     "datosCuriosos": ["Tiene el lago de asfalto natural más grande del mundo.", "El chile Moruga Scorpion, uno de los más picantes, es de aquí."],
     "continent": "América",
+    "geopoliticalZone" : ["El Caribe"],
+"borderingCountries" : ["Ninguno"],
     "population": 1399488
     },
     {
@@ -279,7 +295,7 @@
     "cultura": "Conocido por el sistema de orquestas juveniles, el joropo y su pasión por el béisbol.",
     "datosCuriosos": ["Tiene la caída de agua ininterrumpida más alta del mundo: el Salto Ángel.", "El relámpago del Catatumbo es un fenómeno meteorológico único que ocurre casi todas las noches."],
     "continent": "América",
-        "geopoliticalZone" : ["Sudamérica", "América Latina", "El Caribe"],
+    "geopoliticalZone" : ["Sudamérica", "América Latina", "El Caribe"],
 "borderingCountries" : ["Colombia", "Brasil", "Guyana"],
     "population": 28435940
     },
@@ -294,7 +310,7 @@
     "cultura": "Es el único país de Sudamérica donde el idioma oficial es el inglés. Famoso por el cricket y el calipso.",
     "datosCuriosos": ["Alberga las cataratas Kaieteur, una de las caídas de agua más poderosas del mundo.", "La gran mayoría de su territorio es selva virgen."],
     "continent": "América",
-        "geopoliticalZone" : ["Sudamérica", "El Caribe"],
+    "geopoliticalZone" : ["Sudamérica", "El Caribe"],
 "borderingCountries" : ["Venezuela", "Brasil", "Suriname"],
     "population": 786552
     },
@@ -324,7 +340,7 @@
     "cultura": "Famoso por sus mercados indígenas coloridos y por ser el mayor exportador de bananas del mundo.",
     "datosCuriosos": ["El volcán Chimborazo es el punto más cercano al sol (debido a la forma de la Tierra).", "Las Islas Galápagos inspiraron la teoría de la evolución de Darwin."],
     "continent": "América",
-        "geopoliticalZone" : ["Sudamérica", "América Latina"],
+    "geopoliticalZone" : ["Sudamérica", "América Latina"],
 "borderingCountries" : ["Colombia", "Perú"],
     "population": 17643054
     },
@@ -339,7 +355,7 @@
     "cultura": "Su gastronomía es aclamada mundialmente (ceviche). Cuna del Imperio Inca.",
     "datosCuriosos": ["La papa es originaria de aquí, cultivan más de 3,000 variedades.", "El Cañón del Colca es dos veces más profundo que el Gran Cañón de EE.UU."],
     "continent": "América",
-        "geopoliticalZone" : ["Sudamérica", "América Latina"],
+    "geopoliticalZone" : ["Sudamérica", "América Latina"],
 "borderingCountries" : ["Ecuador", "Colombia", "Brasil", "Bolivia", "Chile"],
     "population": 32971854
     },
@@ -369,7 +385,7 @@
     "cultura": "Tiene la mayor población indígena de Sudamérica y el Lago Titicaca, el lago navegable más alto del mundo.",
     "datosCuriosos": ["El Salar de Uyuni es el espejo natural más grande del mundo.", "Tiene 37 idiomas oficiales."],
     "continent": "América",
-        "geopoliticalZone" : ["Sudamérica", "América Latina"],
+    "geopoliticalZone" : ["Sudamérica", "América Latina"],
 "borderingCountries" : ["Perú", "Brasil", "Paraguay", "Argentina", "Chile"],
     "population": 11673021
     },
@@ -384,7 +400,7 @@
     "cultura": "Es un país bilingüe (Guaraní y Español). Famoso por el tereré (bebida de yerba mate fría) y el arpa paraguaya.",
     "datosCuriosos": ["Su bandera es la única en el mundo con dos escudos diferentes (anverso y reverso).", "Comparte la represa de Itaipú, una de las más grandes del mundo."],
     "continent": "América",
-        "geopoliticalZone" : ["Sudamérica", "América Latina"],
+    "geopoliticalZone" : ["Sudamérica", "América Latina"],
 "borderingCountries" : ["Bolivia", "Brasil", "Argentina"],
     "population": 7132538
     },
@@ -444,6 +460,8 @@
     "cultura": "Hogar del Fado (música nostálgica) y de exploradores históricos. Aman el bacalao.",
     "datosCuriosos": ["Es el país más antiguo de Europa con fronteras definidas.", "Producen la mitad del corcho del mundo."],
     "continent": "Europa",
+    "geopoliticalZone" : ["Europa del Sur"],
+"borderingCountries" : ["España"],
     "population": 10196709
     },
     {
@@ -470,6 +488,8 @@
     "cultura": "Líder mundial en lujo y cocina. Hogar del Louvre y la Torre Eiffel.",
     "datosCuriosos": ["Es el país más visitado del mundo.", "Inventaron el cine y el sistema métrico."],
     "continent": "Europa",
+        "geopoliticalZone" : ["Europa Occidental"],
+"borderingCountries" : ["Bélgica", "Luxemburgo", "Alemania", "Suiza", "Italia", "Mónaco", "España", "Andorra"]
     "population": 67391582
     },
     {
@@ -483,6 +503,8 @@
     "cultura": "Cuna de Shakespeare, los Beatles, Harry Potter y la Revolución Industrial.",
     "datosCuriosos": ["El Rey es dueño legal de todos los cisnes del río Támesis.", "En Londres se hablan más de 300 idiomas."],
     "continent": "Europa",
+        "geopoliticalZone" : ["Europa Occidental"],
+"borderingCountries" : ["Irlanda"],
     "population": 67215293
     },
     {
@@ -496,6 +518,8 @@
     "cultura": "Conocida por la música folk, los pubs, la cerveza Guinness y la literatura.",
     "datosCuriosos": ["Halloween se originó aquí (festival de Samhain).", "No hay serpientes en la isla."],
     "continent": "Europa",
+    "geopoliticalZone" : ["Europa Occidental"],
+"borderingCountries" : ["Reino Unido"],
     "population": 4994724
     },
     {
@@ -509,6 +533,8 @@
     "cultura": "Mundialmente famosa por sus chocolates, gofres, patatas fritas y cientos de tipos de cerveza.",
     "datosCuriosos": ["Producen más de 220,000 toneladas de chocolate al año.", "Aquí se inventó el saxofón."],
     "continent": "Europa",
+    "geopoliticalZone" : ["Europa Occidental"],
+"borderingCountries" : ["Países Bajos", "Alemania", "Luxemburgo", "Francia"],
     "population": 11589616
     },
     {
@@ -522,6 +548,8 @@
     "cultura": "Líderes en ciclismo urbano y gestión del agua. Famosos por pintores como Van Gogh.",
     "datosCuriosos": ["Tienen los hombres más altos del mundo en promedio.", "Hay más bicicletas que personas."],
     "continent": "Europa",
+        "geopoliticalZone" : ["Europa Occidental"],
+"borderingCountries" : ["Alemania", "Bélgica"].
     "population": 17441139
     },
     {
@@ -535,6 +563,8 @@
     "cultura": "Tierra de Bach y Beethoven. Famosa por sus festivales (Oktoberfest) y eficiencia.",
     "datosCuriosos": ["Hay más de 1,500 tipos de salchichas.", "La autopista Autobahn no tiene límite de velocidad en muchos tramos."],
     "continent": "Europa",
+    "geopoliticalZone" : ["Europa Occidental", "Europa Central"],
+"borderingCountries" : ["Dinamarca", "Polonia", "República Checa", "Austria", "Suiza", "Francia", "Luxemburgo", "Bélgica", "Países Bajos"]
     "population": 83240525
     },
     {
@@ -548,6 +578,8 @@
     "cultura": "Conocida por sus relojes de lujo, chocolates finos, quesos y bancos.",
     "datosCuriosos": ["Su bandera es cuadrada, no rectangular.", "Tienen búnkeres nucleares capaces de albergar a toda su población."],
     "continent": "Europa",
+    "geopoliticalZone" : ["Europa Occidental", "Europa Central"],
+"borderingCountries" : ["Alemania", "Francia", "Italia", "Austria", "Liechtenstein"],
     "population": 8654618
     },
     {
@@ -587,6 +619,8 @@
     "cultura": "Cuna de Mozart y Strauss. Viena es famosa por sus cafés y óperas.",
     "datosCuriosos": ["El croissant se originó aquí (Viena), no en Francia.", "Hogar de la cueva de hielo más grande del mundo."],
     "continent": "Europa",
+    "geopoliticalZone" : ["Europa Central"],
+"borderingCountries" : ["Alemania", "República Checa", "Eslovaquia", "Hungría", "Eslovenia", "Italia", "Suiza", "Liechtenstein"],
     "population": 9006400
     },
     {
@@ -925,6 +959,8 @@
     "cultura": "Es el único Gran Ducado del mundo. Muy rico y multilingüe.",
     "datosCuriosos": ["El transporte público es gratuito en todo el país.", "Tiene el salario mínimo más alto de la UE."],
     "continent": "Europa",
+        "geopoliticalZone" : ["Europa Occidental"],
+"borderingCountries" : ["Bélgica", "Alemania", "Francia"],
     "population": 632275
     },
     {
@@ -977,6 +1013,8 @@
     "cultura": "Hogar del Gran Premio de F1 y casinos famosos (donde los locales no pueden apostar).",
     "datosCuriosos": ["Es el segundo país más pequeño del mundo.", "Tiene la mayor densidad de millonarios del planeta."],
     "continent": "Europa",
+        "geopoliticalZone" : ["Europa Occidental"],
+"borderingCountries" : ["Francia"]
     "population": 39244
     },
     {
@@ -990,6 +1028,8 @@
     "cultura": "Conocido por sus castillos medievales, paisajes alpinos y sellos postales.",
     "datosCuriosos": ["Es el mayor productor mundial de dientes falsos.", "Es uno de los dos países 'doblemente sin litoral' del mundo."],
     "continent": "Europa",
+    "geopoliticalZone" : ["Europa Central"],
+"borderingCountries" : ["Suiza", "Austria"],
     "population": 38137
     },
     {
