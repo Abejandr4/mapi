@@ -10,7 +10,7 @@
         "cultura": "Famoso por el Día de Muertos, el mariachi y una gastronomía que es Patrimonio de la Humanidad.",
         "datosCuriosos": ["La Ciudad de México se hunde unos 10 cm al año.", "El chocolate fue inventado aquí."],
         "continent": "América",
-        "geopoliticalZone" : "Norteamérica y América Latina",
+        "geopoliticalZone" :  ["Norteamérica", "América Latina"],
         "borderingCountries" : ["Estados Unidos de América", "Belize", "Guatemala"],
         "population": 126014024
     },
@@ -25,6 +25,8 @@
         "cultura": "Conocido por su amabilidad, el hockey sobre hielo y ser el mayor productor de jarabe de arce.",
         "datosCuriosos": ["Tiene más lagos que el resto del mundo combinado.", "La palabra 'Canadá' significa 'pueblo'."],
         "continent": "América",
+        "geopoliticalZone": ["Norteamérica"],
+        "borderingCountries": ["Estados Unidos de América"],
         "population": 38005238
     },
     {
@@ -38,6 +40,8 @@
         "cultura": "Un crisol de culturas, cuna de Hollywood, el Jazz, el Rock and Roll y la innovación de Silicon Valley.",
         "datosCuriosos": ["La bandera actual fue diseñada por un estudiante de 17 años.", "No tienen idioma oficial a nivel federal."],
         "continent": "América",
+        "geopoliticalZone": ["Norteamérica"],
+        "borderingCountries": ["Canadá", "México"],
         "population": 331449281
     },
     {
@@ -51,6 +55,8 @@
         "cultura": "Hogar de la antigua ciudad de Tikal y tradiciones textiles coloridas que siguen vivas hoy.",
         "datosCuriosos": ["Inventaron el chocolate instantáneo (los mayas).", "Su moneda es el Quetzal, llamada así por su ave nacional."],
         "continent": "América",
+        "geopoliticalZone" : ["Norteamérica", "Centroamérica", "América Latina"],
+        "borderingCountries" : ["México", "Belice", "El Salvador", "Honduras"],
         "population": 16858333
     },
     {
@@ -64,6 +70,8 @@
         "cultura": "El único país de Centroamérica donde el idioma oficial es el inglés, con fuerte influencia caribeña.",
         "datosCuriosos": ["Tiene el Gran Agujero Azul, un sumidero submarino visible desde el espacio.", "Fue la capital de los piratas."],
         "continent": "América",
+        "geopoliticalZone" : ["Norteamérica", "Centroamérica", "El Caribe"],
+        "borderingCountries" : ["México", "Guatemala"],
         "population": 397628
     },
     {
@@ -77,6 +85,8 @@
         "cultura": "Famoso por las pupusas (su plato nacional) y sus excelentes playas para el surf.",
         "datosCuriosos": ["Es conocido como la Tierra de los Volcanes.", "Fue el primer país en adoptar Bitcoin como moneda legal."],
         "continent": "América",
+        "geopoliticalZone" : ["Norteamérica", "Centroamérica", "América Latina"],
+        "borderingCountries" : ["Guatemala", "Honduras"],
         "population": 6486201
     },
     {
@@ -90,6 +100,8 @@
         "cultura": "Famoso por la cultura Garífuna y sus arrecifes en las Islas de la Bahía, ideales para bucear.",
         "datosCuriosos": ["Ocurre una 'lluvia de peces' en Yoro cada año.", "Fue el primer lugar donde Colón pisó tierra firme en América."],
         "continent": "América",
+        "geopoliticalZone" : ["Norteamérica", "Centroamérica", "América Latina"],
+        "borderingCountries" : ["Guatemala", "El Salvador", "Nicaragua"],
         "population": 9904607
     },
     {
@@ -103,6 +115,8 @@
         "cultura": "Tierra de poetas como Rubén Darío y ciudades coloniales coloridas como Granada y León.",
         "datosCuriosos": ["El lago de Nicaragua tiene los únicos tiburones de agua dulce del mundo.", "Sus calles no tienen nombres oficiales."],
         "continent": "América",
+        "geopoliticalZone" : ["Norteamérica", "Centroamérica", "América Latina"],
+"borderingCountries" : ["Honduras", "Costa Rica"],
         "population": 6624554
     },
     {
@@ -116,6 +130,8 @@
         "cultura": "Un país pacifista sin ejército desde 1948, enfocado en la educación y la naturaleza.",
         "datosCuriosos": ["Contiene el 5% de la biodiversidad mundial.", "Es uno de los países más felices del mundo."],
         "continent": "América",
+        "geopoliticalZone" : ["Norteamérica", "Centroamérica", "América Latina"],
+"borderingCountries" : ["Nicaragua", "Panamá"]
         "population": 5094118
     },
     {
@@ -129,6 +145,8 @@
         "cultura": "Una mezcla vibrante de culturas globales, comercio, selvas tropicales y comunidades indígenas.",
         "datosCuriosos": ["Es el único lugar donde puedes ver el amanecer en el Atlántico y el atardecer en el Pacífico.", "El sombrero Panamá es de Ecuador."],
         "continent": "América",
+        "geopoliticalZone": ["Norteamérica", "Centroamérica", "América Latina"],
+        "borderingCountries": ["Costa Rica", "Colombia"],
         "population": 4314767
     },
     {
@@ -246,6 +264,8 @@
     "cultura": "Famoso por el realismo mágico de Gabriel García Márquez, la cumbia, el vallenato y el mejor café suave del mundo.",
     "datosCuriosos": ["Es el mayor productor de esmeraldas del planeta.", "Su himno nacional es considerado uno de los más bellos del mundo."],
     "continent": "América",
+    "geopoliticalZone" : ["Sudamérica", "América Latina"],
+"borderingCountries" : ["Panamá", "Venezuela", "Brasil", "Perú", "Ecuador"]
     "population": 50882891
     },
     {
@@ -259,6 +279,8 @@
     "cultura": "Conocido por el sistema de orquestas juveniles, el joropo y su pasión por el béisbol.",
     "datosCuriosos": ["Tiene la caída de agua ininterrumpida más alta del mundo: el Salto Ángel.", "El relámpago del Catatumbo es un fenómeno meteorológico único que ocurre casi todas las noches."],
     "continent": "América",
+        "geopoliticalZone" : ["Sudamérica", "América Latina", "El Caribe"],
+"borderingCountries" : ["Colombia", "Brasil", "Guyana"],
     "population": 28435940
     },
     {
@@ -272,6 +294,8 @@
     "cultura": "Es el único país de Sudamérica donde el idioma oficial es el inglés. Famoso por el cricket y el calipso.",
     "datosCuriosos": ["Alberga las cataratas Kaieteur, una de las caídas de agua más poderosas del mundo.", "La gran mayoría de su territorio es selva virgen."],
     "continent": "América",
+        "geopoliticalZone" : ["Sudamérica", "El Caribe"],
+"borderingCountries" : ["Venezuela", "Brasil", "Suriname"],
     "population": 786552
     },
     {
@@ -285,6 +309,8 @@
     "cultura": "Es el único país de América donde se habla neerlandés (holandés) oficialmente.",
     "datosCuriosos": ["Es uno de los países más boscosos del mundo (90% selva).", "En su capital conviven una mezquita y una sinagoga una al lado de la otra."],
     "continent": "América",
+    "geopoliticalZone" : ["Sudamérica", "El Caribe"],
+    "borderingCountries" : ["Guyana", "Brasil", "Francia (Guayana Francesa)"]
     "population": 586632
     },
     {
