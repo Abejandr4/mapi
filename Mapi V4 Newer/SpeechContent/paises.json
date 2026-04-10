@@ -324,6 +324,8 @@
     "cultura": "Famoso por sus mercados indígenas coloridos y por ser el mayor exportador de bananas del mundo.",
     "datosCuriosos": ["El volcán Chimborazo es el punto más cercano al sol (debido a la forma de la Tierra).", "Las Islas Galápagos inspiraron la teoría de la evolución de Darwin."],
     "continent": "América",
+        "geopoliticalZone" : ["Sudamérica", "América Latina"],
+"borderingCountries" : ["Colombia", "Perú"],
     "population": 17643054
     },
     {
@@ -337,6 +339,8 @@
     "cultura": "Su gastronomía es aclamada mundialmente (ceviche). Cuna del Imperio Inca.",
     "datosCuriosos": ["La papa es originaria de aquí, cultivan más de 3,000 variedades.", "El Cañón del Colca es dos veces más profundo que el Gran Cañón de EE.UU."],
     "continent": "América",
+        "geopoliticalZone" : ["Sudamérica", "América Latina"],
+"borderingCountries" : ["Ecuador", "Colombia", "Brasil", "Bolivia", "Chile"],
     "population": 32971854
     },
     {
@@ -350,6 +354,8 @@
     "cultura": "Mundialmente famoso por el Carnaval de Río, la samba, la bossa nova y el fútbol.",
     "datosCuriosos": ["Es el mayor productor de café del mundo desde hace 150 años.", "El río Amazonas es el más caudaloso del planeta."],
     "continent": "América",
+    "geopoliticalZone" : ["Sudamérica", "América Latina"],
+    "borderingCountries" : ["Uruguay", "Argentina", "Paraguay", "Bolivia", "Perú", "Colombia", "Venezuela", "Guyana", "Suriname", "Francia (Guayana Francesa)"],
     "population": 212559417
     },
     {
@@ -363,6 +369,8 @@
     "cultura": "Tiene la mayor población indígena de Sudamérica y el Lago Titicaca, el lago navegable más alto del mundo.",
     "datosCuriosos": ["El Salar de Uyuni es el espejo natural más grande del mundo.", "Tiene 37 idiomas oficiales."],
     "continent": "América",
+        "geopoliticalZone" : ["Sudamérica", "América Latina"],
+"borderingCountries" : ["Perú", "Brasil", "Paraguay", "Argentina", "Chile"],
     "population": 11673021
     },
     {
@@ -376,6 +384,8 @@
     "cultura": "Es un país bilingüe (Guaraní y Español). Famoso por el tereré (bebida de yerba mate fría) y el arpa paraguaya.",
     "datosCuriosos": ["Su bandera es la única en el mundo con dos escudos diferentes (anverso y reverso).", "Comparte la represa de Itaipú, una de las más grandes del mundo."],
     "continent": "América",
+        "geopoliticalZone" : ["Sudamérica", "América Latina"],
+"borderingCountries" : ["Bolivia", "Brasil", "Argentina"],
     "population": 7132538
     },
     {
@@ -389,6 +399,8 @@
     "cultura": "Tierra de poetas ganadores del Nobel (Neruda, Mistral) y excelentes vinos.",
     "datosCuriosos": ["Posee el lugar más árido de la Tierra: el Desierto de Atacama.", "Es el país más largo del mundo de norte a sur."],
     "continent": "América",
+        "geopoliticalZone" : ["Sudamérica", "América Latina"],
+"borderingCountries" : ["Perú", "Bolivia", "Argentina"],
     "population": 19116201
     },
     {
@@ -402,6 +414,8 @@
     "cultura": "Famosa por el tango, el asado, el mate y su pasión desbordada por el fútbol.",
     "datosCuriosos": ["Tiene la avenida más ancha del mundo (9 de Julio).", "Aquí se inventó el sistema de identificación por huellas dactilares."],
     "continent": "América",
+        "geopoliticalZone" : ["Sudamérica", "América Latina"],
+"borderingCountries" : ["Chile", "Bolivia", "Paraguay", "Brasil", "Uruguay"],
     "population": 45195777
     },
     {
@@ -415,6 +429,8 @@
     "cultura": "Comparten la cultura del mate y el asado. Famosos por el Carnaval más largo del mundo (40 días).",
     "datosCuriosos": ["Es el país más secular (menos religioso) de América Latina.", "Fue el anfitrión y ganador del primer mundial de fútbol en 1930."],
     "continent": "América",
+    "geopoliticalZone" : ["Sudamérica", "América Latina"],
+"borderingCountries" : ["Argentina", "Brasil"],
     "population": 3473730
     },
     {
