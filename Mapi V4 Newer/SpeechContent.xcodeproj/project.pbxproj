@@ -29,9 +29,22 @@
 		067D362C2ED8FCB400192E70 /* SpeechContentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechContentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		06CACC952F8703AF003CE647 /* Exceptions for "SpeechContent" folder in "SpeechContent" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 067D36112ED8FCB300192E70 /* SpeechContent */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		067D36142ED8FCB300192E70 /* SpeechContent */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				06CACC952F8703AF003CE647 /* Exceptions for "SpeechContent" folder in "SpeechContent" target */,
+			);
 			path = SpeechContent;
 			sourceTree = "<group>";
 		};
@@ -399,9 +412,11 @@
 				DEVELOPMENT_TEAM = 22FTUTSK95;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechContent/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "ACCESO SIEMPRE";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App solo en uso";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Acceso al microfono";
+				INFOPLIST_KEY_NSMotionUsageDescription = "";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Para procesar tu voz";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -433,9 +448,11 @@
 				DEVELOPMENT_TEAM = 22FTUTSK95;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechContent/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "ACCESO SIEMPRE";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App solo en uso";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Acceso al microfono";
+				INFOPLIST_KEY_NSMotionUsageDescription = "";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Para procesar tu voz";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
