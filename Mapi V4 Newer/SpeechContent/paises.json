@@ -1250,6 +1250,36 @@
     "population": 38928346
     },
     {
+        "id": "iran",
+        "nombre": "Irán",
+        "sinonimos": ["república islámica de irán", "persia"],
+        "latitud": 35.6892,
+        "longitud": 51.3890,
+        "bandera": "🇮🇷",
+        "descripcionGeneral": "Un país de una riqueza histórica inmensa, hogar de una de las civilizaciones más antiguas y continuas del mundo.",
+        "cultura": "Destaca por su refinada poesía, alfombras persas hechas a mano y la celebración del Nowruz (Año Nuevo Persa).",
+        "datosCuriosos": ["Es el hogar del guepardo asiático, una especie en peligro crítico.", "Irán produce aproximadamente el 90% del azafrán de todo el mundo."],
+        "continent": "Asia",
+        "geopoliticalZone": "Medio Oriente",
+        "borderingCountries": ["Afganistán", "Armenia", "Azerbaiyán", "Irak", "Pakistán", "Turquía", "Turkmenistán"],
+        "population": 89172767
+    },
+    {
+        "id": "iraq",
+        "nombre": "Irak",
+        "sinonimos": ["mesopotamia", "república de irak"],
+        "latitud": 33.3152,
+        "longitud": 44.3661,
+        "bandera": "🇮🇶",
+        "descripcionGeneral": "Situado en la antigua Mesopotamia, es considerado la 'cuna de la civilización' por sus aportes fundamentales a la humanidad.",
+        "cultura": "Posee un legado profundo en literatura y ciencias, con influencias de imperios sumerios, acadios y abasíes.",
+        "datosCuriosos": ["Aquí se inventó la escritura cuneiforme y se cree que también la rueda.", "Bagdad fue el centro científico más importante del mundo durante la Edad de Oro del Islam."],
+        "continent": "Asia",
+        "geopoliticalZone": "Medio Oriente",
+        "borderingCountries": ["Irán", "Jordania", "Kuwait", "Arabia Saudita", "Siria", "Turquía"],
+        "population": 46152300
+    }
+    {
     "id": "mongolia",
     "nombre": "Mongolia",
     "sinonimos": ["tierra del cielo azul"],
