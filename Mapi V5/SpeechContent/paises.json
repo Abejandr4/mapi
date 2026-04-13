@@ -2272,8 +2272,7 @@
         "paisesColindantes": ["Namibia","Botsuana","Zimbabue","Mozambique","Lesoto","Esuatini"],
         "continent": "África",
         "population": 60000000
-    },
-    
+    }, 
     {
         "id": "nigeria",
         "nombre": "Nigeria",
@@ -2420,7 +2419,363 @@
         "continent": "África",
         "population": 17000000
     },
-    
+    {
+    "id": "sudan",
+    "nombre": "Sudán",
+    "capital": "Jartum",
+    "sinonimos": ["república del sudán", "sudan"],
+    "latitud": 15.5007,
+    "longitud": 32.5599,
+    "bandera": "🇸🇩",
+    "descripcionGeneral": "País del noreste de África donde confluyen el Nilo Blanco y el Nilo Azul.",
+    "cultura": "Fuerte influencia árabe e islámica con profundas raíces en las civilizaciones nubias.",
+    "datosCuriosos": [
+      "Tiene más pirámides que Egipto.",
+      "Es uno de los principales productores de goma arábiga en el mundo."
+    ],
+    "historia": "Antiguo reino de Kush; fue un condominio anglo-egipcio hasta su independencia en 1956.",
+    "clima": "Árido en el norte y tropical en el sur.",
+    "ubicacionGeografica": "Noreste de África",
+    "paisesColindantes": ["Egipto", "Eritrea", "Etiopía", "Sudán del Sur", "República Centroafricana", "Chad", "Libia"],
+    "continent": "África",
+    "population": 48109000
+  },
+  {
+    "id": "tunez",
+    "nombre": "Túnez",
+    "capital": "Túnez",
+    "sinonimos": ["tunisia", "república tunecina"],
+    "latitud": 36.8065,
+    "longitud": 10.1815,
+    "bandera": "🇹🇳",
+    "descripcionGeneral": "País más septentrional de África, situado entre el Atlas y el Mediterráneo.",
+    "cultura": "Mezcla de herencias bereberes, romanas, árabes y francesas.",
+    "datosCuriosos": [
+      "El anfiteatro de El Jem es uno de los mejores conservados del mundo.",
+      "Varias escenas de Star Wars se filmaron en el desierto tunecino."
+    ],
+    "historia": "Antiguo hogar de la civilización cartaginesa; fue protectorado francés hasta 1956.",
+    "clima": "Mediterráneo en el norte y desértico en el sur.",
+    "ubicacionGeografica": "Norte de África",
+    "paisesColindantes": ["Argelia", "Libia"],
+    "continent": "África",
+    "population": 12458223
+  },
+  {
+    "id": "niger",
+    "nombre": "Níger",
+    "capital": "Niamey",
+    "sinonimos": ["república del níger"],
+    "latitud": 13.5116,
+    "longitud": 2.1254,
+    "bandera": "🇳🇪",
+    "descripcionGeneral": "País interior de África Occidental, nombrado así por el río Níger.",
+    "cultura": "Rica tradición de pueblos nómadas como los Tuareg y los Fulani.",
+    "datosCuriosos": [
+      "Es el hogar de la última manada de jirafas de África Occidental.",
+      "Más del 80% de su territorio es parte del desierto del Sahara."
+    ],
+    "historia": "Obtuvo su independencia de Francia en 1960; su historia reciente está marcada por la minería de uranio.",
+    "clima": "Principalmente desértico y extremadamente caluroso.",
+    "ubicacionGeografica": "África Occidental",
+    "paisesColindantes": ["Libia", "Chad", "Nigeria", "Benín", "Burkina Faso", "Malí", "Argelia"],
+    "continent": "África",
+    "population": 27202843
+  },
+  {
+    "id": "mali",
+    "nombre": "Malí",
+    "capital": "Bamako",
+    "sinonimos": ["mali", "república de malí"],
+    "latitud": 12.6392,
+    "longitud": -8.0029,
+    "bandera": "🇲🇱",
+    "descripcionGeneral": "País sin salida al mar en el corazón de África Occidental.",
+    "cultura": "Famoso por su música tradicional y la arquitectura de barro de Tombuctú.",
+    "datosCuriosos": [
+      "Mansa Musa, rey de Malí, es considerado la persona más rica de la historia.",
+      "La Gran Mezquita de Djenné es el edificio de barro más grande del mundo."
+    ],
+    "historia": "Sede de grandes imperios africanos; se independizó de Francia en 1960.",
+    "clima": "Subtropical a árido, muy seco en el norte.",
+    "ubicacionGeografica": "África Occidental",
+    "paisesColindantes": ["Argelia", "Níger", "Burkina Faso", "Costa de Marfil", "Guinea", "Senegal", "Mauritania"],
+    "continent": "África",
+    "population": 23293698
+  },
+  {
+    "id": "somalia",
+    "nombre": "Somalia",
+    "capital": "Mogadiscio",
+    "sinonimos": ["república federal de somalia"],
+    "latitud": 2.0469,
+    "longitud": 45.3182,
+    "bandera": "🇸🇴",
+    "descripcionGeneral": "País ubicado en el Cuerno de África con la costa más larga del continente.",
+    "cultura": "Tradicionalmente una sociedad de poetas y comerciantes nómadas.",
+    "datosCuriosos": [
+      "Es el único país del mundo donde casi toda la población habla el mismo idioma.",
+      "Tiene una de las mayores poblaciones de camellos del mundo."
+    ],
+    "historia": "Formada por la unión de territorios británicos e italianos en 1960.",
+    "clima": "Árido y semiárido con vientos monzónicos.",
+    "ubicacionGeografica": "Cuerno de África",
+    "paisesColindantes": ["Yibuti", "Etiopía", "Kenia"],
+    "continent": "África",
+    "population": 18143378
+  },
+  {
+    "id": "ruanda",
+    "nombre": "Ruanda",
+    "capital": "Kigali",
+    "sinonimos": ["rwanda", "tierra de las mil colinas"],
+    "latitud": -1.9441,
+    "longitud": 30.0619,
+    "bandera": "🇷🇼",
+    "descripcionGeneral": "Pequeño país montañoso en la región de los Grandes Lagos de África.",
+    "cultura": "Conocida por su danza 'Intore' y su fuerte enfoque en la reconciliación social.",
+    "datosCuriosos": [
+      "Las bolsas de plástico están prohibidas desde 2008.",
+      "Tiene el mayor porcentaje de mujeres en el parlamento a nivel mundial."
+    ],
+    "historia": "Tras un trágico genocidio en 1994, el país ha experimentado un crecimiento económico asombroso.",
+    "clima": "Templado de montaña, a pesar de estar cerca del ecuador.",
+    "ubicacionGeografica": "África Central/Oriental",
+    "paisesColindantes": ["Uganda", "Tanzania", "Burundi", "República Democrática del Congo"],
+    "continent": "África",
+    "population": 14094683
+  },
+  {
+    "id": "guinea",
+    "nombre": "Guinea",
+    "capital": "Conakri",
+    "sinonimos": ["guinea-conakri"],
+    "latitud": 9.6412,
+    "longitud": -13.5784,
+    "bandera": "🇬🇳",
+    "descripcionGeneral": "País costero de África Occidental con inmensas reservas de bauxita.",
+    "cultura": "Diversidad étnica destacada por los grupos Fula, Mandinka y Susu.",
+    "datosCuriosos": [
+      "Es conocida como el 'depósito de agua' de África Occidental por sus ríos.",
+      "Posee la mayor reserva mundial de bauxita (aluminio)."
+    ],
+    "historia": "Fue la primera colonia francesa del África subsahariana en lograr la independencia (1958).",
+    "clima": "Tropical con una estación de lluvias muy intensa.",
+    "ubicacionGeografica": "África Occidental",
+    "paisesColindantes": ["Guinea-Bisáu", "Senegal", "Malí", "Costa de Marfil", "Liberia", "Sierra Leona"],
+    "continent": "África",
+    "population": 14190612
+  },
+  {
+    "id": "guinea_bisau",
+    "nombre": "Guinea-Bisáu",
+    "capital": "Bisáu",
+    "sinonimos": ["guinea bissau"],
+    "latitud": 11.8632,
+    "longitud": -15.5977,
+    "bandera": "🇬🇼",
+    "descripcionGeneral": "Pequeño país de África Occidental que incluye el archipiélago de las Bijagós.",
+    "cultura": "Fuerte influencia lusa en la lengua criolla y tradiciones locales.",
+    "datosCuriosos": [
+      "Es el mayor productor mundial de anacardos (nueces de la India).",
+      "Las mujeres tienen un estatus social muy alto en las islas Bijagós."
+    ],
+    "historia": "Antigua colonia portuguesa; su independencia fue reconocida en 1974.",
+    "clima": "Tropical, cálido y húmedo todo el año.",
+    "ubicacionGeografica": "África Occidental",
+    "paisesColindantes": ["Senegal", "Guinea"],
+    "continent": "África",
+    "population": 2150842
+  },
+  {
+    "id": "sierra_leona",
+    "nombre": "Sierra Leona",
+    "capital": "Freetown",
+    "sinonimos": ["sierra leone"],
+    "latitud": 8.4844,
+    "longitud": -13.2344,
+    "bandera": "🇸🇱",
+    "descripcionGeneral": "País en la costa suroeste de África Occidental, conocido por sus playas y diamantes.",
+    "cultura": "Población diversa con una cultura criolla (Krio) muy influyente.",
+    "datosCuriosos": [
+      "Freetown fue fundada como refugio para esclavos liberados.",
+      "Su nombre proviene de la 'Sierra de la Leona' por la forma de sus montañas."
+    ],
+    "historia": "Ex colonia británica; se independizó en 1961.",
+    "clima": "Tropical húmedo con lluvias monzónicas.",
+    "ubicacionGeografica": "África Occidental",
+    "paisesColindantes": ["Guinea", "Liberia"],
+    "continent": "África",
+    "population": 8791092
+  },
+  {
+    "id": "republica_del_congo",
+    "nombre": "República del Congo",
+    "capital": "Brazzaville",
+    "sinonimos": ["congo-brazzaville", "el congo"],
+    "latitud": -4.2634,
+    "longitud": 15.2832,
+    "bandera": "🇨🇬",
+    "descripcionGeneral": "País de África Central cubierto en gran parte por selva tropical.",
+    "cultura": "Destaca la 'SAPE', una subcultura de moda elegante y colorida.",
+    "datosCuriosos": [
+      "Su capital está justo enfrente de Kinshasa (RDC), separadas solo por el río.",
+      "El 70% de la población vive en la zona costera y cerca del río."
+    ],
+    "historia": "Antigua colonia francesa; obtuvo su soberanía en 1960.",
+    "clima": "Ecuatorial, cálido y húmedo.",
+    "ubicacionGeografica": "África Central",
+    "paisesColindantes": ["Gabón", "Camerún", "República Centroafricana", "República Democrática del Congo", "Angola"],
+    "continent": "África",
+    "population": 6106869
+  },
+  {
+    "id": "republica_centroafricana",
+    "nombre": "República Centroafricana",
+    "capital": "Bangui",
+    "sinonimos": ["rca", "central african republic"],
+    "latitud": 4.3947,
+    "longitud": 18.5582,
+    "bandera": "🇨🇫",
+    "descripcionGeneral": "País sin salida al mar en el centro del continente africano.",
+    "cultura": "Tradición musical rica, especialmente la de los pueblos pigmeos Aka.",
+    "datosCuriosos": [
+      "Es uno de los mejores lugares del mundo para observar mariposas.",
+      "Casi no tiene contaminación lumínica en gran parte de su territorio."
+    ],
+    "historia": "Independiente de Francia desde 1960; ha pasado por diversos periodos de inestabilidad política.",
+    "clima": "Tropical con estaciones secas y lluviosas marcadas.",
+    "ubicacionGeografica": "África Central",
+    "paisesColindantes": ["Chad", "Sudán", "Sudán del Sur", "República Democrática del Congo", "República del Congo", "Camerún"],
+    "continent": "África",
+    "population": 5742315
+  },
+  {
+    "id": "mauritania",
+    "nombre": "Mauritania",
+    "capital": "Nuakchot",
+    "sinonimos": ["república islámica de mauritania"],
+    "latitud": 18.0735,
+    "longitud": -15.9582,
+    "bandera": "🇲🇷",
+    "descripcionGeneral": "Nación puente entre el Magreb y el África subsahariana.",
+    "cultura": "Herencia de antiguos centros de aprendizaje islámico como Chinguetti.",
+    "datosCuriosos": [
+      "Alberga el 'Tren del Hierro', uno de los trenes más largos del mundo.",
+      "Tiene el cementerio de barcos más grande del mundo en Nouadhibou."
+    ],
+    "historia": "Se independizó de Francia en 1960.",
+    "clima": "Desértico, cálido y seco.",
+    "ubicacionGeografica": "Noroeste de África",
+    "paisesColindantes": ["Sáhara Occidental", "Argelia", "Malí", "Senegal"],
+    "continent": "África",
+    "population": 4862989
+  },
+  {
+    "id": "gambia",
+    "nombre": "Gambia",
+    "capital": "Banjul",
+    "sinonimos": ["the gambia", "república de gambia"],
+    "latitud": 13.4549,
+    "longitud": -16.5790,
+    "bandera": "🇬🇲",
+    "descripcionGeneral": "País más pequeño de África continental, rodeando el río Gambia.",
+    "cultura": "Famosa por sus músicos de 'kora' y sus festivales tradicionales.",
+    "datosCuriosos": [
+      "A excepción de su costa, está totalmente rodeada por Senegal.",
+      "Su forma sigue el curso del río Gambia por casi 480 km."
+    ],
+    "historia": "Ex colonia británica; independiente desde 1965.",
+    "clima": "Tropical con estaciones seca y húmeda.",
+    "ubicacionGeografica": "África Occidental",
+    "paisesColindantes": ["Senegal"],
+    "continent": "África",
+    "population": 2773168
+  },
+  {
+    "id": "lesoto",
+    "nombre": "Lesoto",
+    "capital": "Maseru",
+    "sinonimos": ["lesotho", "reino de lesoto"],
+    "latitud": -29.3225,
+    "longitud": 27.4869,
+    "bandera": "🇱🇸",
+    "descripcionGeneral": "Reino montañoso enclavado totalmente dentro de Sudáfrica.",
+    "cultura": "Cultura Basotho, conocida por sus mantas tradicionales y jinetes de montaña.",
+    "datosCuriosos": [
+      "Es el único país del mundo cuyo territorio está totalmente por encima de los 1,000 metros.",
+      "Se le conoce como el 'Reino en el Cielo'."
+    ],
+    "historia": "Antiguo protectorado británico (Basutolandia); independiente desde 1966.",
+    "clima": "Templado, con inviernos que pueden traer nieve a las montañas.",
+    "ubicacionGeografica": "África Austral",
+    "paisesColindantes": ["Sudáfrica"],
+    "continent": "África",
+    "population": 2330318
+  },
+  {
+    "id": "seychelles",
+    "nombre": "Seychelles",
+    "capital": "Victoria",
+    "sinonimos": ["república de las seychelles"],
+    "latitud": -4.6796,
+    "longitud": 55.4920,
+    "bandera": "🇸🇨",
+    "descripcionGeneral": "Archipiélago de 115 islas en el océano Índico, famoso por sus playas vírgenes.",
+    "cultura": "Fusión criolla de influencias francesas, africanas e indias.",
+    "datosCuriosos": [
+      "Es el hogar del Coco de Mer, la semilla más grande del mundo.",
+      "Es el país menos poblado de África."
+    ],
+    "historia": "Independiente del Reino Unido desde 1976.",
+    "clima": "Tropical marino, cálido y húmedo.",
+    "ubicacionGeografica": "Océano Índico",
+    "paisesColindantes": [],
+    "continent": "África",
+    "population": 107660
+  },
+  {
+    "id": "mauricio",
+    "nombre": "Mauricio",
+    "capital": "Port Louis",
+    "sinonimos": ["mauritius", "república de mauricio"],
+    "latitud": -20.1609,
+    "longitud": 57.5012,
+    "bandera": "🇲🇺",
+    "descripcionGeneral": "Isla en el Índico conocida por sus playas, lagunas y arrecifes.",
+    "cultura": "Danza Sega y una sociedad multirreligiosa con gran herencia india.",
+    "datosCuriosos": [
+      "Fue el único hogar conocido del extinto pájaro Dodo.",
+      "Tiene un fenómeno visual conocido como la 'cascada submarina'."
+    ],
+    "historia": "Controlada por holandeses, franceses y británicos hasta su independencia en 1968.",
+    "clima": "Tropical con vientos del sureste.",
+    "ubicacionGeografica": "Océano Índico",
+    "paisesColindantes": [],
+    "continent": "África",
+    "population": 1300557
+  },
+  {
+    "id": "santo_tome_y_principe",
+    "nombre": "Santo Tomé y Príncipe",
+    "capital": "Santo Tomé",
+    "sinonimos": ["sao tome and principe"],
+    "latitud": 0.3302,
+    "longitud": 6.7333,
+    "bandera": "🇸🇹",
+    "descripcionGeneral": "Nación insular africana cerca del ecuador, formada por dos islas volcánicas.",
+    "cultura": "Influencia portuguesa mezclada con tradiciones del golfo de Guinea.",
+    "datosCuriosos": [
+      "Es uno de los países más pequeños de África.",
+      "Conocido por su producción de cacao de alta calidad."
+    ],
+    "historia": "Islas deshabitadas descubiertas por portugueses; independientes desde 1975.",
+    "clima": "Ecuatorial, húmedo y cálido.",
+    "ubicacionGeografica": "Golfo de Guinea",
+    "paisesColindantes": [],
+    "continent": "África",
+    "population": 231856
+  },
     {
         "id": "rdc",
         "nombre": "República Democrática del Congo",
