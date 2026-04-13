@@ -816,6 +816,8 @@
     "cultura": "Hogar de la leyenda de Drácula y castillos medievales impresionantes.",
     "datosCuriosos": ["Tienen el edificio administrativo civil más pesado del mundo (Palacio del Parlamento).", "El idioma rumano es romance, parecido al italiano."],
     "continent": "Europa",
+    "geopoliticalZone" : ["Europa del Este", "Los Balcanes"],
+"borderingCountries" : ["Ucrania", "Moldavia", "Bulgaria", "Serbia", "Hungría"],
     "population": 19286123
     },
     {
