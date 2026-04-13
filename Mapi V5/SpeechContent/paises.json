@@ -3013,6 +3013,111 @@
         "population": 200000
     },
     {
+    "id": "islas_salomon",
+    "nombre": "Islas Salomón",
+    "capital": "Honiara",
+    "sinonimos": ["solomon islands"],
+    "latitud": -9.4456,
+    "longitud": 159.9729,
+    "bandera": "🇸🇧",
+    "descripcionGeneral": "Nación compuesta por cientos de islas en el Pacífico Sur.",
+    "cultura": "Diversidad de culturas melanesias con cientos de lenguas locales.",
+    "datosCuriosos": [
+      "Fueron nombradas así por un explorador español que creyó encontrar las minas de oro del Rey Salomón.",
+      "Es el hogar del arrecife de coral más grande del mundo (Rennell del Este)."
+    ],
+    "historia": "Independiente del Reino Unido desde 1978.",
+    "clima": "Tropical húmedo y cálido.",
+    "ubicacionGeografica": "Oceanía",
+    "paisesColindantes": [],
+    "continent": "Oceanía",
+    "population": 740424
+  },
+  {
+    "id": "vanuatu",
+    "nombre": "Vanuatu",
+    "capital": "Port Vila",
+    "sinonimos": ["república de vanuatu"],
+    "latitud": -17.7333,
+    "longitud": 168.3273,
+    "bandera": "🇻🇺",
+    "descripcionGeneral": "Archipiélago de origen volcánico en el Pacífico sur.",
+    "cultura": "Destaca el 'land diving', el precursor del puenting.",
+    "datosCuriosos": [
+      "Tiene más de 100 idiomas distintos, la mayor densidad lingüística del mundo.",
+      "Cuenta con la única oficina de correos submarina del mundo."
+    ],
+    "historia": "Anteriormente se llamaba Nuevas Hébridas; independiente desde 1980.",
+    "clima": "Tropical con lluvias frecuentes.",
+    "ubicacionGeografica": "Oceanía",
+    "paisesColindantes": [],
+    "continent": "Oceanía",
+    "population": 334506
+  },
+  {
+    "id": "islas_marshall",
+    "nombre": "Islas Marshall",
+    "capital": "Majuro",
+    "sinonimos": ["marshall islands"],
+    "latitud": 7.1315,
+    "longitud": 171.1845,
+    "bandera": "🇲🇭",
+    "descripcionGeneral": "País compuesto por atolones de coral e islas en el Pacífico central.",
+    "cultura": "Cultura marinera experta en la navegación con mapas de palos y conchas.",
+    "datosCuriosos": [
+      "El Atolón Bikini fue sitio de pruebas nucleares de EE. UU.",
+      "Es uno de los países más amenazados por el aumento del nivel del mar."
+    ],
+    "historia": "Independiente de la administración estadounidense desde 1986.",
+    "clima": "Tropical, cálido y húmedo.",
+    "ubicacionGeografica": "Micronesia",
+    "paisesColindantes": [],
+    "continent": "Oceanía",
+    "population": 42000
+  },
+  {
+    "id": "nauru",
+    "nombre": "Nauru",
+    "capital": "Yaren",
+    "sinonimos": ["república de nauru"],
+    "latitud": -0.5228,
+    "longitud": 166.9315,
+    "bandera": "🇳🇷",
+    "descripcionGeneral": "Pequeña isla al sur de la línea del ecuador en el Pacífico.",
+    "cultura": "Cultura micronesia con influencia de la minería de fosfato.",
+    "datosCuriosos": [
+      "Es la república independiente más pequeña del mundo.",
+      "Es el único país del mundo sin una capital oficial (Yaren es el distrito administrativo)."
+    ],
+    "historia": "Independiente desde 1968; su economía se basó casi exclusivamente en el fosfato.",
+    "clima": "Tropical con lluvias monzónicas.",
+    "ubicacionGeografica": "Micronesia",
+    "paisesColindantes": [],
+    "continent": "Oceanía",
+    "population": 12780
+  },
+  {
+    "id": "tuvalu",
+    "nombre": "Tuvalu",
+    "capital": "Funafuti",
+    "sinonimos": ["islas ellice"],
+    "latitud": -8.5172,
+    "longitud": 179.1450,
+    "bandera": "🇹🇻",
+    "descripcionGeneral": "Nación insular polinesia, una de las más aisladas del mundo.",
+    "cultura": "Basada en el sistema tradicional de parentesco y danzas comunitarias.",
+    "datosCuriosos": [
+      "Su punto más alto está a solo 4.6 metros sobre el nivel del mar.",
+      "Obtiene ingresos significativos por la venta de su dominio de internet '.tv'."
+    ],
+    "historia": "Independiente del Reino Unido desde 1978.",
+    "clima": "Tropical marino.",
+    "ubicacionGeografica": "Polinesia",
+    "paisesColindantes": [],
+    "continent": "Oceanía",
+    "population": 11396
+  },
+    {
         "id": "tonga",
         "nombre": "Tonga",
         "capital": "Nukualofa",
