@@ -262,6 +262,132 @@
         "population": 11402528
     },
     {
+    "id": "antigua_y_barbuda",
+    "nombre": "Antigua y Barbuda",
+    "capital": "Saint John",
+    "sinonimos": ["antigua and barbuda"],
+    "latitud": 17.1179,
+    "longitud": -61.8468,
+    "bandera": "🇦🇬",
+    "descripcionGeneral": "País caribeño formado por dos islas principales rodeadas de arrecifes.",
+    "cultura": "Fuerte pasión por el cricket y festivales de carnaval.",
+    "datosCuriosos": [
+      "Se dice que tiene 365 playas, una para cada día del año.",
+      "Barbuda es uno de los pocos lugares con arena rosada."
+    ],
+    "historia": "Logró su plena independencia del Reino Unido en 1981.",
+    "clima": "Tropical marino con poca variación estacional.",
+    "ubicacionGeografica": "Antillas Menores",
+    "paisesColindantes": [],
+    "continent": "América",
+    "population": 94298
+  },
+    {
+        "id": "dominica",
+        "nombre": "Dominica",
+        "capital": "Roseau",
+        "sinonimos": ["mancomunidad de dominica", "la isla de la naturaleza"],
+        "latitud": 15.3092,
+        "longitud": -61.3794,
+        "bandera": "🇩🇲",
+        "descripcionGeneral": "Isla montañosa en el Caribe, famosa por sus fuentes termales y selvas.",
+        "cultura": "Hogar de la última comunidad de indígenas caribes (Kalinago).",
+        "datosCuriosos": [
+        "Tiene el segundo lago de agua hirviendo más grande del mundo.",
+        "Es la isla más joven de las Antillas Menores, formada por actividad volcánica."
+        ],
+        "historia": "Independiente del Reino Unido desde 1978.",
+        "clima": "Tropical húmedo con lluvias abundantes.",
+        "ubicacionGeografica": "Antillas Menores",
+        "paisesColindantes": [],
+        "continent": "América",
+        "population": 73040
+    },
+    {
+        "id": "santa_lucia",
+        "nombre": "Santa Lucía",
+        "capital": "Castries",
+        "sinonimos": ["saint lucia"],
+        "latitud": 13.9094,
+        "longitud": -60.9789,
+        "bandera": "🇱🇨",
+        "descripcionGeneral": "Isla caribeña con volcanes icónicos y playas de ensueño.",
+        "cultura": "Mezcla de herencia francesa y británica; famosa por su Festival de Jazz.",
+        "datosCuriosos": [
+        "Sus picos volcánicos, los Pitons, son Patrimonio de la Humanidad.",
+        "Es el único país que lleva el nombre de una mujer real."
+        ],
+        "historia": "Cambió de manos entre franceses y británicos 14 veces antes de su independencia en 1979.",
+        "clima": "Tropical, moderado por los vientos alisios.",
+        "ubicacionGeografica": "Antillas Menores",
+        "paisesColindantes": [],
+        "continent": "América",
+        "population": 180251
+    },
+    {
+        "id": "san_vicente_y_las_granadinas",
+        "nombre": "San Vicente y las Granadinas",
+        "capital": "Kingstown",
+        "sinonimos": ["saint vincent and the grenadines"],
+        "latitud": 13.1608,
+        "longitud": -61.2248,
+        "bandera": "🇻🇨",
+        "descripcionGeneral": "Nación insular volcánica que incluye la isla principal de San Vicente y 32 islas menores.",
+        "cultura": "Rica tradición de pesca y navegación, con una fuerte herencia garífuna.",
+        "datosCuriosos": [
+        "La película 'Piratas del Caribe' fue filmada en gran parte en San Vicente.",
+        "Tiene un volcán activo llamado La Soufrière."
+        ],
+        "historia": "Independiente del Reino Unido desde 1979.",
+        "clima": "Tropical cálido y húmedo.",
+        "ubicacionGeografica": "Antillas Menores",
+        "paisesColindantes": [],
+        "continent": "América",
+        "population": 103698
+    },
+    {
+        "id": "granada",
+        "nombre": "Granada",
+        "capital": "Saint George",
+        "sinonimos": ["grenada", "isla de las especias"],
+        "latitud": 12.0529,
+        "longitud": -61.7522,
+        "bandera": "🇬🇩",
+        "descripcionGeneral": "País insular en el Caribe con plantaciones de especias y selvas tropicales.",
+        "cultura": "Conocida por su música Soca y su vibrante Carnaval (Spicemas).",
+        "datosCuriosos": [
+        "Es uno de los mayores productores de nuez moscada del mundo.",
+        "Cuenta con un museo de esculturas submarinas único."
+        ],
+        "historia": "Independiente desde 1974; sufrió una invasión estadounidense en 1983.",
+        "clima": "Tropical con estación húmeda.",
+        "ubicacionGeografica": "Antillas Menores",
+        "paisesColindantes": [],
+        "continent": "América",
+        "population": 126146
+    },
+    {
+        "id": "san_cristobal_y_nieves",
+        "nombre": "San Cristóbal y Nieves",
+        "capital": "Basseterre",
+        "sinonimos": ["saint kitts and nevis"],
+        "latitud": 17.3026,
+        "longitud": -62.7177,
+        "bandera": "🇰🇳",
+        "descripcionGeneral": "País más pequeño del continente americano por población y área.",
+        "cultura": "Herencia colonial británica mezclada con ritmos caribeños.",
+        "datosCuriosos": [
+        "Fue el primer lugar en el Caribe donde se establecieron colonos británicos y franceses.",
+        "Nevis es famoso por ser el lugar de nacimiento de Alexander Hamilton."
+        ],
+        "historia": "Se independizó del Reino Unido en 1983.",
+        "clima": "Tropical marino.",
+        "ubicacionGeografica": "Antillas Menores",
+        "paisesColindantes": [],
+        "continent": "América",
+        "population": 47755
+    },
+    {
         "id": "jamaica",
         "nombre": "Jamaica",
         "capital": "Kingston",
