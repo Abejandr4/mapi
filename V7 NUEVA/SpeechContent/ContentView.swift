@@ -15,9 +15,9 @@ final class MapViewModel: NSObject, ObservableObject, CLLocationManagerDelegate 
     @Published var isShowingLookAround = false
     @Published var showAlert = false
     @Published var alertMessage = ""
+    @Published var currentUserLocation: CLLocationCoordinate2D?
     
     private var manager: CLLocationManager?
-    private var currentUserLocation: CLLocationCoordinate2D?
     
     override init() {
         super.init()
@@ -36,9 +36,28 @@ final class MapViewModel: NSObject, ObservableObject, CLLocationManagerDelegate 
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        guard let location = locations.last else { return }
-        self.currentUserLocation = location.coordinate
-    }
+            guard let location = locations.last else { return }
+            DispatchQueue.main.async {
+                self.currentUserLocation = location.coordinate
+            }
+        }
+    
+    func calcularDistancia(hacia destino: CLLocationCoordinate2D) -> String? {
+            guard let userCoord = currentUserLocation else { return nil }
+            
+            let puntoA = CLLocation(latitude: userCoord.latitude, longitude: userCoord.longitude)
+            let puntoB = CLLocation(latitude: destino.latitude, longitude: destino.longitude)
+            
+            let distanciaEnMetros = puntoA.distance(from: puntoB)
+            let distanciaEnKm = distanciaEnMetros / 1000
+            
+            let formatter = NumberFormatter()
+            formatter.numberStyle = .decimal
+            formatter.maximumFractionDigits = 1
+            
+            let kmString = formatter.string(from: NSNumber(value: distanciaEnKm)) ?? "\(distanciaEnKm)"
+            return "\(kmString) km"
+        }
     
     func getDirections(to destination: CLLocationCoordinate2D) async {
         guard let userLocation = currentUserLocation else { return }
@@ -103,6 +122,16 @@ struct CityInfoCard: View {
                 
                 ScrollView(.vertical, showsIndicators: true) {
                     VStack(alignment: .leading, spacing: 15) {
+                        
+                        if let distancia = viewModel.calcularDistancia(hacia: pais.coordinate) {
+                            InfoSection(
+                                icono: "arrow.up.left.and.arrow.down.right.circle.fill",
+                                titulo: "Distancia desde tu posición",
+                                texto: "Estás a aproximadamente \(distancia) de este país.",
+                                colorIcono: .green
+                            )
+                        }
+                        
                         InfoSection(icono: "book.fill", titulo: "Historia", texto: pais.historia)
                         InfoSection(icono: "text.alignleft", titulo: "Descripción", texto: pais.descripcionGeneral)
                         InfoSection(icono: "paintpalette.fill", titulo: "Cultura", texto: pais.cultura)
@@ -120,6 +149,7 @@ struct CityInfoCard: View {
                         if let dato = pais.datosCuriosos.first {
                             InfoSection(icono: "lightbulb.fill", titulo: "Dato Curioso", texto: dato, colorIcono: .yellow)
                         }
+                        
     
                         Divider()
                         HStack(alignment: .center, spacing: 20) {
